@@ -1,0 +1,21 @@
+# -*- mode: gitignore -*-
+# macOS Finder metadata
+.DS_Store
+
+# IntelliJ grot
+.idea/
+
+# Vim swap files; see https://vimdoc.sourceforge.net/htmldoc/recover.html
+*.s??
+
+# Emacs nonsense
+*~
+\#*\#
+.\#*
+
+
+# Added by cargo
+**/target
+
+# K8s
+**kubeconfig
